@@ -1,0 +1,61 @@
+/* Add styles here */
+body{
+    background-image: url("imagess/sword-art-online-salah-satu-anime-isekai.jpg");
+    /* background-repeat: no-repeat; */ 
+    margin:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.navbar{
+    padding: 0px;
+    background-color: aliceblue;
+    opacity: 50%;
+}
+.navbarmenu{
+    text-align: right;
+    padding: 5px;
+}
+.navbarmenulist{
+    list-style: none;
+}
+.navbarmenulist >li{
+    display: inline-block;
+    padding:0px 5px;
+}
+.navbarmenulist > li > a{
+    text-decoration: none;
+    color: black;
+}
+.navbarmenulist > li > a:hover{
+    font-weight: bold;
+    color:white;
+    background-color:black;
+}
+.navbarjudul{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 50px;
+    position:relative;
+    top:30px;
+    left: 15px;
+    text-shadow: 2px 2px 8px blue;
+}
+#txhello{
+    font-size: 50px ;
+    position: relative;
+    top: 200px;
+    left:25%;
+}
+#btn1{
+    position: relative;
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    top:200px;
+    left:45%;
+}
+#btn1:hover{                   
+    background-color: blue;
+    color: white;   
+}
